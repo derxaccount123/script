@@ -4,18 +4,18 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     },
     
     ["Universal"] = {
-        ['Indicators'] = { ['Enabled'] = (true) },
+        ['Indicators'] = { ['Enabled'] = (false) },
     },
     
     ["SilentAim"] = {
         ['Enabled'] = (true),
         ['Toggle'] = ('C'), --[[ For Target Mode ]]
         ['Field'] = ('Box'),
-        ['Mode'] = ('Target'), --[[ Automatic, Target ]]
+        ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                          --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = 0.112, ['Air'] = 0.112, ['Automated'] = (true), ['Stabilize'] = 4.9, ['YStabilize'] = { ['Enabled'] = true, ['Value'] = 2 } },
                                                           --[[ Basic, Advanced ]]
-        ['Point'] = ('Nearest Part'), ['Scale'] = (0.96), ['Type'] = ('Advanced'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
+        ['Point'] = ('Nearest Part'), ['Scale'] = (0.96), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
         ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
     },
     
@@ -89,7 +89,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
         ['SilentAimField'] = { ['Size'] = (100) },
-        ['SilentAimBoxField'] = { ['Visible'] = (true), ['Sync'] = (false), ['Width'] = (7), ['Height'] = (7) }
+        ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (7), ['Height'] = (7) }
     },
 }
 
