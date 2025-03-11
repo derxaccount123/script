@@ -16,7 +16,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = 0.112, ['Air'] = 0.112, ['Automated'] = (true), ['Stabilize'] = 4.9, ['YStabilize'] = { ['Enabled'] = true, ['Value'] = 2 } },
                                                           --[[ Basic, Advanced ]]
         ['Point'] = ('Default'), ['Scale'] = (0.96), ['Type'] = ('Basic'), --[[ "Nearest Part", "Nearest Point", "Default" ]]
-        ['Parts'] = {'Head'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
+        ['Parts'] = {'Head', 'UpperTorso'} --[[ https://create.roblox.com/docs/reference/engine/enums/BodyPartR15 ]]
     },
     
     ["AimAssist"] = {
