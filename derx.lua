@@ -10,7 +10,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     ["SilentAim"] = {
         ['Enabled'] = (true),
         ['Toggle'] = ('T'), --[[ For Target Mode ]]
-        ['Field'] = ('Box'),
+        ['Field'] = ('Circle'),
         ['Mode'] = ('Automatic'), --[[ Automatic, Target ]]
                                                                                                          --[[ Must have Automated enabled to use these (prediction formula for offbrands) ]]
         ['Prediction'] = { ['Enabled'] = (true), ['Ground'] = 0.119, ['Air'] = 0.119, ['Automated'] = (true), ['Stabilize'] = 4.9, ['YStabilize'] = { ['Enabled'] = true, ['Value'] = 2 } },
@@ -88,7 +88,7 @@ shared["F​F​l​a​g​A​X​C​o​m​b​i​n​e​G​e​t​O​
     
     ["Fields"] = {
         ['AimAssistField'] = { ['Size'] = (500) },
-        ['SilentAimField'] = { ['Size'] = (100) },
+        ['SilentAimField'] = { ['Size'] = (275) },
         ['SilentAimBoxField'] = { ['Visible'] = (false), ['Sync'] = (false), ['Width'] = (4.7), ['Height'] = (5.4) }
     },
 }
